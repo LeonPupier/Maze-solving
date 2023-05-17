@@ -388,7 +388,7 @@ display_labyrinthe(labyrinthe, parcours)
 parcours = []
 while parcours == []:
   labyrinthe =generation(SIZE=( 20 , 20 ))
-  parcours= search_short_path(labyrinthe, search_entry(labyrinthe))
+  parcours= search_short_path(labyrinthe, search_entry(labyrinthe)) 
 display_labyrinthe(labyrinthe, parcours)
 ```
 ![image-005](https://user-images.githubusercontent.com/100092382/209581354-55cfe85f-c153-466a-a113-e3876e29c803.png)
